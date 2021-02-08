@@ -83,6 +83,7 @@ public class ImageController
 		 for(MultipartFile file:files)
 		 {
 			  saveData(file);
+			  System.out.println("this is firsat changes");
 		 }
 		 
 		 return  ResponseEntity.status(HttpStatus.OK).body("All Files Uploaded Successfully");
